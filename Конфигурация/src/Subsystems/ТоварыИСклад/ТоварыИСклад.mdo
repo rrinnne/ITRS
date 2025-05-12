@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c53fa5e9-859f-4297-a2dc-c9b9f33fd848">
+  <name>ТоварыИСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары и склад</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Наташа</picture>
+  </picture>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Catalog.Поставщики</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.Заказы</content>
+  <content>Enum.ВидНоменклатуры</content>
+  <content>Catalog.Договоры</content>
+  <content>Document.СписаниеТоваров</content>
+</mdclass:Subsystem>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e93a29e8-756f-4f86-9a3c-aac448891caf">
+  <producedTypes>
+    <objectType typeId="7b9c9c48-0679-4647-b05d-31661a185c78" valueTypeId="a19ed5b9-9e3a-4221-b690-bfe251058c01"/>
+    <refType typeId="00109ec8-1766-4b57-80be-147205f37270" valueTypeId="4e12bd43-8d12-470f-b40f-b376a4455785"/>
+    <selectionType typeId="14c14b23-0dd2-4a51-9dba-2bcb6e2272e4" valueTypeId="4cdd98e6-cb45-4fc8-afb9-0d03166cf8a6"/>
+    <listType typeId="9bb8acad-f276-4556-b47a-fa6c7adedb2e" valueTypeId="d51a5a77-0c75-4984-a482-cfab36835ea8"/>
+    <managerType typeId="851bf91b-0816-4b12-b1a2-808ae1dabed0" valueTypeId="a2d94d03-3d48-4c4c-9a6e-28e5155344cf"/>
+  </producedTypes>
+  <name>ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ГрафикРаботы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ГрафикРаботы.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ffa8b914-3629-491d-9671-5313d0e5f5e4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ede8ec4-e8bb-4c66-995c-ce3e5d68e42d">
+    <name>ТипГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип графика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГрафикРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0c2d11b7-692b-43bc-a694-d2dec9be3f9d">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="571ff9d9-eae3-4072-859c-505a30d83951">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="dbb21671-9a70-4664-9c04-d013b287c8cb">
+    <producedTypes>
+      <objectType typeId="fcc4d3bc-6b78-456b-811a-d414cf63d974" valueTypeId="7364606e-5980-41ba-ad5c-6e513865af6a"/>
+      <rowType typeId="f7ae43e3-d456-4496-b0cb-7f47b611a198" valueTypeId="c9012623-ba43-459e-8e2a-5e099c0c6d7a"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <attributes uuid="1324b970-5bf4-4ec5-9aef-4d702fdb7cea">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c4c26ac-8a7b-4f27-822b-a861472a8da3">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aa9f846e-6ca4-4955-b160-2460810a3928">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b85d5b01-d7f9-41a3-badb-ede67bbf932e">
+      <name>ТипСмены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип смены</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

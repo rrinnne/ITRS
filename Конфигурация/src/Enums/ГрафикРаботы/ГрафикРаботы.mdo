@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="798178e7-f7d7-41e4-a459-30af4ab1f244">
+  <producedTypes>
+    <refType typeId="025a6ca2-6b45-40cf-bfbc-002f106ecdb6" valueTypeId="538d5e51-59c8-48a3-b581-c77e5b78d3fe"/>
+    <listType typeId="52661431-dfcf-4129-9f87-a2c95dd1d797" valueTypeId="cabd2551-7b20-468c-9eb4-690360937e5a"/>
+    <managerType typeId="fc623141-b72b-47cf-8c42-7aa11dc68a44" valueTypeId="b87aee6a-3dbb-4234-9104-188a6121a799"/>
+  </producedTypes>
+  <name>ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f6b456b9-056c-4ab4-bcbd-d3859a616402">
+    <name>Полный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="128b9464-b2fe-4c68-a0f0-9bb6bc8e66cc">
+    <name>Сменный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a10c3ab1-80a5-4d0a-a9f5-9ad45e912548">
+    <name>Гибкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гибкий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e0234ce-0460-4b75-8fe7-e7bd28a8c5c9">
+  <producedTypes>
+    <refType typeId="78663b39-2c2e-44f9-b867-e2ed0752e3e0" valueTypeId="59eab99a-f511-4b1d-8af4-8b75369b6a8f"/>
+    <listType typeId="9e15d782-3e6b-408b-bbcd-3ac9add99312" valueTypeId="3eca592d-0c22-42a2-b428-0556bf95ea99"/>
+    <managerType typeId="e7d83146-f689-4e45-b991-131bac25dfe0" valueTypeId="a1a2a415-c4f4-4345-a79d-adb0be388cc2"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06be991b-83b1-4a6f-9f16-d5f6ef54099f">
+    <name>Adidas</name>
+    <synonym>
+      <key>ru</key>
+      <value>Adidas</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d8c140c-aaa5-4cde-b387-97f8f8c1816e">
+    <name>Nike</name>
+    <synonym>
+      <key>ru</key>
+      <value>Nike</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75d217dd-98dd-44bb-8d48-d1aeea14bde0">
+    <name>Balenciaga</name>
+    <synonym>
+      <key>ru</key>
+      <value>Balenciaga</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9635b719-7a65-4512-afa3-c67718a64090">
+    <name>RickOwens</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rick owens</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624de386-cfcd-4a4f-90c4-70c244594184">
+  <name>Персонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Катя</picture>
+  </picture>
+  <content>Catalog.Сотрудники</content>
+  <content>Document.ГрафикРаботы</content>
+</mdclass:Subsystem>

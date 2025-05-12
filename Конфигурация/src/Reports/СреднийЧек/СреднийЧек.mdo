@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28db14ea-7113-4ecf-b0d1-dab1c48cdaec">
+  <producedTypes>
+    <objectType typeId="9f4fafd3-51e9-4f22-be9c-a14ebe4059bd" valueTypeId="dd8d7e90-e37a-42cb-83e1-bba7f044742c"/>
+    <managerType typeId="3c9ef6c4-e143-4c65-b78d-586cfc217393" valueTypeId="042325bb-4093-437d-b981-ffa35cba142a"/>
+  </producedTypes>
+  <name>СреднийЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Средний чек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СреднийЧек.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="43651e9d-3cbb-4441-8df9-cbad772f2088">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

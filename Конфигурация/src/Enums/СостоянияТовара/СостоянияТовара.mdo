@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18a23bae-31cc-4389-a35d-fdb8d4d3aa06">
+  <producedTypes>
+    <refType typeId="eab677b0-a2ab-43df-98ee-bbd1ba4bf68c" valueTypeId="07642786-6e91-4d7b-bc4f-a09659d1563f"/>
+    <listType typeId="d245820b-a5b5-45a2-a480-be8a6d124642" valueTypeId="1290da5a-42e8-4a06-a51a-9def0ba2eeaa"/>
+    <managerType typeId="eae46661-c115-427f-9c9c-53bb382ead59" valueTypeId="4e97ba3a-5654-4523-ade9-d2d4a3c9151e"/>
+  </producedTypes>
+  <name>СостоянияТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния товара</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="364de393-4afe-4cf6-8657-3e541cf18313">
+    <name>БезПовреждений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без повреждений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9c31e32-072a-4916-907c-9d4624530849">
+    <name>Поврежден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поврежден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

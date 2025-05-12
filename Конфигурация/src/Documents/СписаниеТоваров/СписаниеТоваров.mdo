@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1adccc1-ddc7-4754-a449-3d0230242037">
+  <producedTypes>
+    <objectType typeId="a2d2a28f-27d0-4c4d-b9c0-f7c28096d526" valueTypeId="8d33de84-78d0-4352-94b8-830e16e2ac0c"/>
+    <refType typeId="03cb3280-cabb-4572-be7e-a3032d44561e" valueTypeId="89654fd6-9d8f-458e-8a2a-32fe4f39d51e"/>
+    <selectionType typeId="b8b095cb-6015-4fb5-bcb7-79be01c28ae0" valueTypeId="f50f094d-629e-41e9-828a-6aced3b0ec35"/>
+    <listType typeId="6b7ef965-d473-4de4-8e3d-1069c95c731d" valueTypeId="0fa373d6-f9fb-42d4-98a0-9fb0b0e1c765"/>
+    <managerType typeId="f1e2ba7b-2b95-48df-b39b-1799d97b7201" valueTypeId="effaa1d6-12b9-4465-a5b1-6ffa4abe5fee"/>
+  </producedTypes>
+  <name>СписаниеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписаниеТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписаниеТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1e6167cb-06af-4edb-85f9-19ecd3036786">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c0cbe721-3c71-4eb8-ba9b-fbe285d02273">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="85c8231a-8345-41e8-9b35-87b57d593a4f">
+    <producedTypes>
+      <objectType typeId="5ee0b6c0-24ba-401d-a2d9-cf20064e492c" valueTypeId="6130329e-ba9d-4878-aba1-b3590b9d889f"/>
+      <rowType typeId="7cdbe4fa-784a-4c72-8820-b3c1aabec47d" valueTypeId="133453fc-60dd-4f59-8026-1fbeae2c4db4"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="34cd8a5f-a818-4261-984f-871f29242c0a">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c5c1b404-61e7-444c-82d3-86aad0536f85">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1050ea25-11ed-4eb0-90d2-8d1d2bfa3fb1">
+      <name>ПричинаСписания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина списания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
