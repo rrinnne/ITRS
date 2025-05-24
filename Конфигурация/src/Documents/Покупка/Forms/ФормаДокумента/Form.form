@@ -223,6 +223,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ТабличнаяЧасть1.Цена</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТабличнаяЧасть1ЦенаРасширеннаяПодсказка</name>
         <id>31</id>
@@ -295,6 +299,58 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>ТабличнаяЧасть1Баллы</name>
+      <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Баллы</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ТабличнаяЧасть1.Скидка</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СкидкаПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>ТабличнаяЧасть1БаллыРасширеннаяПодсказка</name>
+        <id>42</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТабличнаяЧасть1БаллыКонтекстноеМеню</name>
+        <id>41</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>AutoComplete</event>
+          <name>ТабличнаяЧасть1БаллыАвтоПодбор</name>
+        </handlers>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ТабличнаяЧасть1Сумма</name>
       <id>35</id>
       <visible>true</visible>
@@ -305,6 +361,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ТабличнаяЧасть1.Сумма</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СуммаДокументаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТабличнаяЧасть1СуммаРасширеннаяПодсказка</name>
         <id>37</id>
