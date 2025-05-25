@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.Покупка.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.Покупка.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.СуммаПродаж</registerRecords>
+  <registerRecords>AccumulationRegister.БонусныеБаллыКлиентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7498a453-790b-4c0b-a533-0ca6344d5b67">
@@ -65,10 +66,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="04da596d-eb24-4b17-b80a-deaea417ab71">
-    <name>Скидка</name>
+    <name>БаллыКСписанию</name>
     <synonym>
       <key>ru</key>
-      <value>Скидка</value>
+      <value>Баллы к списанию</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -95,6 +96,55 @@
       <numberQualifiers>
         <precision>15</precision>
         <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e94950c-3dd5-4740-b313-0de3d704476a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3638638c-39ce-4d1e-abaa-5de976544869">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac911466-0b80-42fb-b988-e3b3932a8c62">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -217,11 +267,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <templates uuid="bf735947-54f4-4928-81e7-b2caa8ca246f">
-    <name>Печать</name>
+  <templates uuid="d8cb55a4-aa93-4afb-a171-b207e80899f2">
+    <name>ПечатьМакетПокупки</name>
   </templates>
-  <commands uuid="03f93d4d-73ce-4045-a9b3-8962de92fedc">
-    <name>Печать</name>
+  <commands uuid="aa2c0a86-d649-41c0-8209-dac8e88633cc">
+    <name>ПечатьПокупки</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>DocumentRef.Покупка</types>

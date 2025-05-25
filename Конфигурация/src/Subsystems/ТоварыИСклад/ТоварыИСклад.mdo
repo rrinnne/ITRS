@@ -17,4 +17,5 @@
   <content>Enum.ВидНоменклатуры</content>
   <content>Catalog.Договоры</content>
   <content>Document.СписаниеТоваров</content>
+  <content>Document.УстановкаЦенТоваров</content>
 </mdclass:Subsystem>

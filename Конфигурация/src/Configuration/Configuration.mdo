@@ -60,10 +60,15 @@
   <documents>Document.Покупка</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.СписаниеТоваров</documents>
+  <documents>Document.УстановкаЦенТоваров</documents>
+  <documents>Document.ШкалаБонуснойПрограммы</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ГрафикРаботы</enums>
   <enums>Enum.СостоянияТовара</enums>
   <reports>Report.ПродажиПоТоварам</reports>
   <reports>Report.СреднийЧек</reports>
+  <informationRegisters>InformationRegister.УстановкаЦенНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ШкалаБонусов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СуммаПродаж</accumulationRegisters>
 </mdclass:Configuration>
