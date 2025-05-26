@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.СписаниеТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1e6167cb-06af-4edb-85f9-19ecd3036786">
@@ -99,10 +100,7 @@
         <value>Причина списания</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>200</length>
-        </stringQualifiers>
+        <types>EnumRef.ПричинаСписания</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

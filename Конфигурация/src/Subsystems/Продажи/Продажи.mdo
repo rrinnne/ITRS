@@ -14,4 +14,6 @@
   <content>Document.Покупка</content>
   <content>Report.ПродажиПоТоварам</content>
   <content>Document.ВозвратТоваров</content>
+  <content>AccumulationRegister.БонусныеБаллыКлиентов</content>
+  <content>Constant.МаксимальнаяДоляОплатыБаллами</content>
 </mdclass:Subsystem>

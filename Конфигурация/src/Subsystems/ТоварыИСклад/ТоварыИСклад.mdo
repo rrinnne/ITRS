@@ -18,4 +18,5 @@
   <content>Catalog.Договоры</content>
   <content>Document.СписаниеТоваров</content>
   <content>Document.УстановкаЦенТоваров</content>
+  <content>Document.ШкалаБонуснойПрограммы</content>
 </mdclass:Subsystem>

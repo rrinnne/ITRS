@@ -48,6 +48,7 @@
   <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН</constants>
+  <constants>Constant.МаксимальнаяДоляОплатыБаллами</constants>
   <constants>Constant.ЮридическоеНаименование</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Договоры</catalogs>
@@ -65,11 +66,13 @@
   <documents>Document.ШкалаБонуснойПрограммы</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ГрафикРаботы</enums>
+  <enums>Enum.ПричинаСписания</enums>
   <enums>Enum.СостоянияТовара</enums>
   <reports>Report.ПродажиПоТоварам</reports>
   <reports>Report.СреднийЧек</reports>
   <informationRegisters>InformationRegister.УстановкаЦенНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ШкалаБонусов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СуммаПродаж</accumulationRegisters>
 </mdclass:Configuration>

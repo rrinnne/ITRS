@@ -90,10 +90,10 @@
       <objectType typeId="6b2b12e8-e145-4026-aa6b-e5bd239cf1e0" valueTypeId="0af6d9e8-3af3-4c80-9e5a-273df5ac0af7"/>
       <rowType typeId="89e84e5b-ef86-40e8-85ca-7cf452c39382" valueTypeId="4427c27b-1feb-4ca8-b858-8fab73408251"/>
     </producedTypes>
-    <name>ТабличнаяЧасть1</name>
+    <name>Товары</name>
     <synonym>
       <key>ru</key>
-      <value>Табличная часть1</value>
+      <value>Товары</value>
     </synonym>
     <attributes uuid="9752a02b-b83d-4758-a52b-61b752823836">
       <name>Наименование</name>
@@ -113,47 +113,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6f1c5100-8df4-4587-aff7-41797e516137">
-      <name>Цена</name>
-      <synonym>
-        <key>ru</key>
-        <value>Цена</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="adb218df-e312-429a-a582-4d8786a555fe">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
         <value>Количество</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="9e14fe36-89b3-4d48-a67c-1a4412ffe674">
-      <name>Сумма</name>
-      <synonym>
-        <key>ru</key>
-        <value>Сумма</value>
       </synonym>
       <type>
         <types>Number</types>

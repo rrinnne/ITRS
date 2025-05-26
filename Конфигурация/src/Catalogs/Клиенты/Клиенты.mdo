@@ -157,25 +157,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f52c0fa3-2907-402b-b0f6-e37636539c78">
-    <name>Бонусы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Бонусы</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>1</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="af623fc9-332b-4599-8371-b4be3521bfbf">
     <producedTypes>
       <objectType typeId="59125202-ae7e-4274-8d1f-b9a0c24754e5" valueTypeId="fa56fb40-dd99-4270-8562-de70889ee692"/>

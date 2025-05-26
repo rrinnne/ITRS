@@ -179,7 +179,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ТабличнаяЧасть1</segments>
+          <segments>Объект.Товары</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
@@ -191,7 +191,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТабличнаяЧасть1.LineNumber</segments>
+            <segments>Объект.Товары.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТабличнаяЧасть1НомерСтрокиРасширеннаяПодсказка</name>
@@ -227,7 +227,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТабличнаяЧасть1.Наименование</segments>
+            <segments>Объект.Товары.Наименование</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТабличнаяЧасть1МатериалРасширеннаяПодсказка</name>
@@ -267,9 +267,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТабличнаяЧасть1.Цена</segments>
-          </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>ТабличнаяЧасть1ЦенаПриИзменении</name>
@@ -289,20 +286,10 @@
             <id>33</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ТабличнаяЧасть1Количество</name>
@@ -313,7 +300,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТабличнаяЧасть1.Количество</segments>
+            <segments>Объект.Товары.Количество</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -357,9 +344,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТабличнаяЧасть1.Сумма</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТабличнаяЧасть1СуммаРасширеннаяПодсказка</name>
             <id>40</id>
@@ -375,28 +359,15 @@
             <id>39</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <footerDataPath xsi:type="form:DataPath">
-            <segments>Объект.ТабличнаяЧасть1.TotalСумма</segments>
-          </footerDataPath>
           <footerText>
             <key>ru</key>
             <value>Итого:</value>
           </footerText>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
         </items>
         <autoCommandBar>
           <name>ТабличнаяЧасть1КоманднаяПанель</name>

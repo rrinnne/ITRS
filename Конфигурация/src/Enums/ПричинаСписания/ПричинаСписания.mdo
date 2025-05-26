@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55e35c83-fdd9-46e3-b6e8-fd1caea6b8e1">
+  <producedTypes>
+    <refType typeId="aa70e74c-25ac-4f58-9e53-5b4f96f07610" valueTypeId="e022e148-1572-4663-a4df-28690fa7d432"/>
+    <listType typeId="a85cbdf5-db8e-46e0-9db2-f44591d4bbbb" valueTypeId="caacb03a-c9e1-4cf0-874c-010f0959e102"/>
+    <managerType typeId="5ae3907b-3202-4dcf-aa4a-5815742790a6" valueTypeId="21b25b50-8eac-4580-98a5-3ac985dbbe9b"/>
+  </producedTypes>
+  <name>ПричинаСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причина списания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3646a007-570f-4780-80dc-108bca6b772a">
+    <name>Брак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fd752f3-6746-4fe8-a524-e3015c41d4e7">
+    <name>Порча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порча</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fcfd19d6-c27a-492f-bb1f-44e343a68468">
+    <name>Кража</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кража</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
