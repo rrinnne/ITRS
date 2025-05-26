@@ -100,9 +100,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Фамилия</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ФамилияРасширеннаяПодсказка</name>
           <id>9</id>
@@ -118,20 +115,10 @@
           <id>8</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>Имя</name>
@@ -141,9 +128,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Имя</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ИмяРасширеннаяПодсказка</name>
           <id>12</id>
@@ -159,20 +143,10 @@
           <id>11</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>Отчество</name>
@@ -182,9 +156,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Отчество</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ОтчествоРасширеннаяПодсказка</name>
           <id>15</id>
@@ -200,20 +171,10 @@
           <id>14</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ДатаРождения</name>
@@ -302,7 +263,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.НомерКарты</segments>
+          <segments>Объект.Телефон</segments>
         </dataPath>
         <extendedTooltip>
           <name>НомерКартыРасширеннаяПодсказка</name>

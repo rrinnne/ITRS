@@ -112,7 +112,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -121,66 +121,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Клиенты.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="a87bae60-1348-4e09-ae31-f62cfb2b97b2">
-    <name>Фамилия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Фамилия</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f2cc7c70-fdc5-449a-a078-77211648dd9e">
-    <name>Имя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="cab700a9-220f-4a2d-8780-d7c29b97be44">
-    <name>Отчество</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отчество</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="536c43e5-8286-4dfb-940f-2ad30c3ddd4f">
     <name>ДатаРождения</name>
     <synonym>
@@ -200,16 +140,16 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="1ce8f6ae-4a7b-47cb-8da6-c2839d8ee619">
-    <name>НомерКарты</name>
+    <name>Телефон</name>
     <synonym>
       <key>ru</key>
-      <value>Номер карты</value>
+      <value>Телефон</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>16</precision>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -45,6 +45,7 @@
   <commonPictures>CommonPicture.Илья</commonPictures>
   <commonPictures>CommonPicture.Катя</commonPictures>
   <commonPictures>CommonPicture.Наташа</commonPictures>
+  <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН</constants>
   <constants>Constant.ЮридическоеНаименование</constants>
